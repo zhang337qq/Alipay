@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*头部开始*/
+header{
+    height: 42.8vw;
+    background-color: #3f454f;
+}
+/*header i li p span{*/
+/*    color: #fff;*/
+/*}*/
+nav{
+    height: 9.06vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navLeft {
+    padding-left: 20px;
+}
+nav .navLeft i{
+    color: #fff;
+    font-size: 5.33vw;
+}
+nav .navRight li{
+    color: #fff;
+    font-size: 5.33vw;
+}
+nav span{
+    font-size: 3.8vw;
+    color: #ffffff;
+}
+.navRight{
+    width: 26.93vw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+header li{
+    font-size: 4vw;
+    color: #fff;
+}
+header .navBtn li i{
+    font-size: 9.5vw;
+}
+.navBtn{
+    height:33.74vw ;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.navBtn li{
+    text-align: center;
+}
+/*内容开始*/
+section{
+    flex-grow: 1;
+    overflow: auto;
+}
+.box{
+    height: 1150px;
+    background-color: #f5f5f9;
+}
+.box .boxTop:nth-child(n+1){
+    border-bottom: 1px solid #cccccc;
+}
+section .box .boxTop{
+    background-color: #fff;
+    height:24vw ;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.boxTop i{
+    font-size:6.66vw ;
+}
+.boxTop p{
+    margin-top: 20px;
+    font-size:3.33vw ;
+}
+section .box .boxTop li{
+    height:24vw ;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .box .boxTop li+li{
+    border-left: 1px solid #ccc;
+}
+.box img{
+    margin: 4vw 0;
+    height:22.26vw ;
+    flex: 1;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.boxBtn{
+    height: 14.66vw;
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #fff;
+}
+.boxBtn li{
+    width:25vw ;
+    height: 14.66vw;
+    font-size: 6.66vw;
+    display: flex;
+    justify-content: space-around   ;
+    align-items: flex-end;
+}
+.boxBtn li+li{
+    border-left:1px solid #ccc ;
+}
+/*尾部开始*/
+footer{
+    border-top: 1px solid #ccc;
+    height: 13.2vw;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    width:25vw ;
+    height: 13.2vw;
+    font-size: 6.66vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+footer .footer-end li i{
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size:6vw;
+}
+footer .footer-end li p{
+    font-size:3.33vw ;
+}
